@@ -99,3 +99,44 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
+
+.detalle {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  text-align: center;
+}
+
+.detalle button {
+  background: transparent;
+  border: 1px solid rgba(255,200,0,0.4);
+  color: #FFC800;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.detalle button:hover {
+  background: #FFC800;
+  color: #000;
+}
+
+.detalle h1 {
+  color: #FFC800;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.detalle img {
+  border-radius: 10px;
+  margin-bottom: 16px;
+  max-width: 200px;
+}
+
+.detalle p {
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 8px;
+  font-size: 15px;
+}
